@@ -17,7 +17,7 @@ export default function ProductCard({ product }: ProductProps) {
     <div className='group cursor-pointer'>
       <div className='relative aspect-4/5 overflow-hidden rounded-2xl bg-slate-100'>
         <Image
-          src='/images/thai-dress-2.jpg'
+          src='/images/thai-dress-9.jpg'
           alt={product}
           fill
           className='object-cover transition-transform duration-500 group-hover:scale-105'

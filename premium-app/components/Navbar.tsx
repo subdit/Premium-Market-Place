@@ -10,12 +10,14 @@ export default function Navbar() {
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='flex justify-between items-center h-16'>
           {/* Logo */}
-          <div className='shrink-0 flex items-center'>
-            <Link
-              href='/'
-              className='text-xl font-bold tracking-tighter text-slate-900'>
-              THAI DRESS<span className='text-blue-600'></span>
-            </Link>
+
+          <div className='flex-shrink-0 flex items-center group cursor-pointer'>
+            <div className='w-8 h-8 bg-slate-900 rounded-sm flex items-center justify-center mr-2 group-hover:bg-blue-600 transition-colors'>
+              <span className='text-white font-serif text-lg'>TD</span>
+            </div>
+            <span className='text-xl font-light tracking-[0.2em] text-slate-900 uppercase'>
+              Thai<span className='font-bold'>Dress</span>
+            </span>
           </div>
 
           {/* Navigation Links - Centered */}

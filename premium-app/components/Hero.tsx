@@ -17,7 +17,7 @@ export default function Hero() {
         </button>
       </div>
       {/* Background Gradient Detail */}
-      <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-50 rounded-full blur-3xl -z-0' />
+      <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-150 bg-blue-50 rounded-full blur-3xl -z-0' />
     </section>
   );
 }
